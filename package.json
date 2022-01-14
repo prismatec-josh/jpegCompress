@@ -1,0 +1,17 @@
+{
+  "name": "jpegcompress",
+  "version": "0.1.0",
+  "description": "A small CLI wrapper of imagemin to simplify bulk JPEG compression",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "type": "module"
+}
